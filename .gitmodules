@@ -1,0 +1,3 @@
+[submodule "3_dvc_mlflow"]
+	path = 3_dvc_mlflow
+	url = git@github.com:evgerher/ydata-dvc-demo.git

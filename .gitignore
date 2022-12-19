@@ -5,4 +5,4 @@ data/processed/*
 .DS_Store
 venv/
 __pychache__/
-*__pychache__/
+*.pyc

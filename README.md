@@ -13,6 +13,9 @@ Folder structure
 3_dvc_mlflow - folder with final code, we added mlflow and DVC functionality
 ```
 
+I made third folder a separate git-project to make clean representation for dvc+git integration.
+
+
 ### DVC
 
 What is DVC?

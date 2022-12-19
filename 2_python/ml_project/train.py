@@ -53,7 +53,6 @@ def train_model(args):
                                                                 config.feature_params)
     model = model_factory(config.train_params)
     model.fit(ds_train.X, ds_train.Y)
-    # todo: make reports here from ipynb files
     model_predictions = model.predict(ds_val.X)
     metrics = compute_metrics(ds_val.Y, model_predictions)
     logger.info(f'Model performance: {metrics}')
