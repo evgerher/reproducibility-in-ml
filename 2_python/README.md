@@ -10,7 +10,8 @@ pip install -r requirements.txt
 
 ### Usage
 
-`python ml_project/train.py --config configs/train_config.yaml`
+Run training `python ml_project/train.py --config configs/train_config.yaml`  
+Upload model `python ml_project/upload_s3.py` :: _Modify manually what to upload and where!_
 
 ### Test
 
@@ -33,9 +34,8 @@ Tests framework == `pytest`
   - train_rf.yaml - example of random forest regressor config
 - tests - folder with tests files
 - notebooks - folder with initial .ipynb files
-- artifacts - 
-  - reports - generated .html files from notebooks folder
-  - models - trained model binary files and other files
+- artifacts
+  - models - trained model binary file and other files
 
 requirements.txt   <- The requirements file for reproducing the analysis environment
 ```

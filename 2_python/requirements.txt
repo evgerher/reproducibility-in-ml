@@ -5,3 +5,4 @@ marshmallow-dataclass==8.5.10
 pandas
 xgboost
 catboost
+boto3
